@@ -1,0 +1,36 @@
+.cabecalho__menu {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) { 
+    .cabecalho__menu {
+        display: flex;
+    }
+
+    .cabecalho__menu-link {
+        padding: 0 1em;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: var(--marrom-claro);
+        font-size: var(--fs-2);
+        font-weight: var(--fw-bold);
+    }
+
+    .cabecalho__menu-link.ativo {
+        color: var(--marrom-escuro);
+    }
+
+    .cabecalho__menu-link:hover {
+        text-decoration: underline;
+    }
+
+    .container.transparente {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .cabecalho__menu-link {
+        font-size: var(--fs-3);
+    }
+}

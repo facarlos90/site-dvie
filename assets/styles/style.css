@@ -1,7 +1,35 @@
+@import url(./header/cabecalho/cabecalho.css);
+@import url(./header/cabecalho/cabecalho-menu.css);
+@import url(./header/cabecalho/cabecalho-menu-hamburguer.css);
+@import url(./header/menu/lista-menu.css);
+@import url(./header/menu/lista-menu-item.css);
+@import url(./header/menu/lista-menu-link.css);
+
 :root {
-    --cor-de-fundo: #C3D1A3;
+    --verde-claro: #C3D1A3;
+    --verde-escuro: #90A46D;
+    --marrom-claro: #877B61;
+    --marrom-escuro: #502A2B;
+
+    --ff-roboto: 'Roboto', sans-serif;
+    --ff-pacifico: 'Pacifico', cursive;
+
+    --fw-bold: 700;
+    --fw-regular: 400;
+    --fw-light: 300;
+
+    --fs-1: 18px;
+    --fs-2: 19px;
+    --fs-3: 23px;
+    --fs-4: 28px;
+    --fs-5: 32px;
+    --fs-6: 51px;
+    --fs-7: 64px;
 }
 
 body {
-    background-color: var(--cor-de-fundo);
+    background-color: var(--verde-claro);
+    font-family: var(--ff-roboto);
+    font-weight: var(--fw-light);
+    font-size: var(--fs-1);
 }

@@ -5,11 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D'vie</title>
     <link rel="stylesheet" href="./assets/styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/styles/reset.css">
     <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 <body>
-
-    
+    <header class="cabecalho">
+        <div class="container">
+            <img src="./assets/images/logo.svg" alt="Logo Devie" class="container__imagem">
+        </div>
+        <div class="container">
+            <ul class="cabecalho__menu">
+                <li><a href="#" class="cabecalho__menu-link ativo">Início</a></li>
+                <li><a href="#" class="cabecalho__menu-link">Quem Somos</a></li>
+                <li><a href="#" class="cabecalho__menu-link">Bolinhos</a></li>
+                <li><a href="#" class="cabecalho__menu-link">Pedidos</a></li>
+            </ul>
+        </div>
+        <div class="container transparente">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabecalho__menu--hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link ativo">Início</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Quem Somos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Bolinhos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Pedidos</a>
+                </li>
+            </ul>
+        </div>
+    </header>
 </body>
 </html>

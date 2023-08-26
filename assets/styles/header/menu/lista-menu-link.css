@@ -1,0 +1,19 @@
+.lista-menu__link {
+    padding: 1em;
+    background-color: var(--verde-claro);
+}
+
+.lista-menu__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--marrom-claro);
+    font-weight: var(--fw-bold);
+}
+
+.lista-menu__link.ativo {
+    color: var(--marrom-escuro);
+}
+
+.lista-menu__link:hover {
+    text-decoration: underline;
+}
