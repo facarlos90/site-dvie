@@ -1,0 +1,19 @@
+.sobre__titulo {
+    color: var(--marrom-escuro);
+    font-family: var(--ff-pacifico);
+    font-size: var(--fs-3);
+}
+
+@media screen and (min-width: 1024px) {
+    .sobre__titulo {
+        font-size: var(--fs-5);
+        padding: 0 5rem;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .sobre__titulo {
+        font-size: var(--fs-6);
+        padding: 0 15rem;
+    }
+}

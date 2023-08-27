@@ -4,12 +4,21 @@
 @import url(./header/menu/lista-menu.css);
 @import url(./header/menu/lista-menu-item.css);
 @import url(./header/menu/lista-menu-link.css);
+@import url(./main/banner/banner.css);
+@import url(./main/banner/banner-imagem.css);
+@import url(./main/banner/banner-titulo.css);
+@import url(./main/sobre/sobre.css);
+@import url(./main/sobre/sobre-titulo.css);
+@import url(./main/sobre/sobre-descricao.css);
+
 
 :root {
     --verde-claro: #C3D1A3;
     --verde-escuro: #90A46D;
     --marrom-claro: #877B61;
     --marrom-escuro: #502A2B;
+    --branco: #FDFDFD;
+    --sombra: #000000;
 
     --ff-roboto: 'Roboto', sans-serif;
     --ff-pacifico: 'Pacifico', cursive;
