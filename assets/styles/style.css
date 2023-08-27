@@ -25,6 +25,12 @@
 @import url(./main/pessoas/pessoa-nome.css);
 @import url(./main/pessoas/pessoa-imagem.css);
 @import url(./main/pessoas/pessoa-funcao.css);
+@import url(./footer/sociais/sociais.css);
+@import url(./footer/sociais/sociais-titulo.css);
+@import url(./footer/sociais/sociais-texto.css);
+@import url(./footer/sociais/sociais-link.css);
+@import url(./footer/sociais/sociais-imagem.css);
+@import url(./rodape.css);
 
 
 :root {
