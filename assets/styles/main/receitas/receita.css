@@ -1,0 +1,22 @@
+.receita {
+    background: var(--verde-claro);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    border-radius: 15px;
+}
+
+@media screen and (min-width: 1024px) {
+    .receita {
+        width: calc(40% - 3rem);
+        margin-left: 5.7rem;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .receita {
+        margin-bottom: 7rem;
+        margin-right: 7rem;
+        width: calc(25% - 7rem);
+    }
+}

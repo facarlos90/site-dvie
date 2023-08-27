@@ -10,6 +10,13 @@
 @import url(./main/sobre/sobre.css);
 @import url(./main/sobre/sobre-titulo.css);
 @import url(./main/sobre/sobre-descricao.css);
+@import url(./main/receitas/receitas.css);
+@import url(./main/receitas/receita.css);
+@import url(./main/receitas/receita__imagem.css);
+@import url(./main/receitas/receita-conteudo.css);
+@import url(./main/receitas/receita-titulo.css);
+@import url(./main/receitas/receita-descricao.css);
+@import url(./main/receitas/receita-botao.css);
 
 
 :root {

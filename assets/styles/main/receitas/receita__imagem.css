@@ -1,0 +1,14 @@
+.receita__imagem {
+    border-radius: 15px;
+}
+
+@media screen and (min-width: 1024px) {}
+    .receita__imagem {
+
+    }
+
+@media screen and (min-width: 1728px) {
+    .receita__imagem {
+        height: 200px;
+    }
+}

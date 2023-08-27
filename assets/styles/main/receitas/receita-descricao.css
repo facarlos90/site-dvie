@@ -1,0 +1,17 @@
+.receita__descricao {
+    font-size: var(--fs-2);
+    text-align: justify;
+    padding: 1rem 0 2rem 0;
+    font-weight: var(--fw-regular);
+    color: var(--marrom-claro);
+}
+
+@media screen and (min-width: 1024px) {
+    .receita__descricao {
+        line-height: 1.5;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+}
