@@ -1,6 +1,6 @@
 .quem-somos__titulo {
-    font-family: var(--ff-pacifico);
     color: var(--marrom-escuro);
+    font-family: var(--ff-pacifico);
     font-size: var(--fs-4);
     margin-bottom: 1rem;
 }

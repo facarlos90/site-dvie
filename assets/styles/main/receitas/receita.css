@@ -1,15 +1,15 @@
 .receita {
     background: var(--verde-claro);
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     margin-bottom: 3rem;
-    border-radius: 15px;
 }
 
 @media screen and (min-width: 1024px) {
     .receita {
-        width: calc(40% - 3rem);
         margin-left: 5.7rem;
+        width: calc(40% - 3rem);
     }
 }
 

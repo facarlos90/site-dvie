@@ -2,11 +2,11 @@
     color: var(--branco);
     font-family: var(--ff-pacifico);
     font-size: var(--fs-3);
-    position: absolute;
     left: 50%;
+    position: absolute;
+    text-align: center;
     text-shadow: 0 4px 4px var(--sombra);
     top: 50%;
-    text-align: center;
     transform: translate(-50%, -50%);
     width: 100%;
 }

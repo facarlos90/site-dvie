@@ -1,13 +1,13 @@
 .lista-menu__link {
-    padding: 1em;
     background-color: var(--verde-claro);
+    padding: 1em;
 }
 
 .lista-menu__link {
-    text-decoration: none;
-    text-transform: uppercase;
     color: var(--marrom-claro);
     font-weight: var(--fw-bold);
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .lista-menu__link.ativo {

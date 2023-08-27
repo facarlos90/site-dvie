@@ -28,19 +28,19 @@
 
 
 :root {
-    --verde-claro: #C3D1A3;
-    --verde-escuro: #90A46D;
+    --branco: #FDFDFD;
     --marrom-claro: #877B61;
     --marrom-escuro: #502A2B;
-    --branco: #FDFDFD;
     --sombra: #000000;
+    --verde-claro: #C3D1A3;
+    --verde-escuro: #90A46D;
 
-    --ff-roboto: 'Roboto', sans-serif;
     --ff-pacifico: 'Pacifico', cursive;
+    --ff-roboto: 'Roboto', sans-serif;
 
     --fw-bold: 700;
-    --fw-regular: 400;
     --fw-light: 300;
+    --fw-regular: 400;
 
     --fs-1: 18px;
     --fs-2: 19px;
@@ -54,6 +54,6 @@
 body {
     background-color: var(--verde-claro);
     font-family: var(--ff-roboto);
-    font-weight: var(--fw-light);
     font-size: var(--fs-1);
+    font-weight: var(--fw-light);
 }

@@ -1,12 +1,10 @@
 .receita__botao {
-    text-decoration: none;
-    color: var(--branco);
     background-color: var(--marrom-claro);
     border-radius: 8px;
+    color: var(--branco);
     padding: 0.5rem;
+    text-decoration: none;
 }
-
-@media screen and (min-width: 1024px) {}
 
 @media screen and (min-width: 1728px) {
     .receita__botao {
@@ -14,7 +12,7 @@
     }
     
     .receita__botao:hover {
-        cursor: pointer;
         background-color: var(--marrom-escuro);
+        cursor: pointer;
     }
 }

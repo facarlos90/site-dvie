@@ -1,6 +1,6 @@
 .pessoa__nome {
-    font-family: var(--ff-pacifico);
     color: var(--marrom-escuro);
+    font-family: var(--ff-pacifico);
     font-size: var(--fs-2);
     margin: 1rem 0;
 }

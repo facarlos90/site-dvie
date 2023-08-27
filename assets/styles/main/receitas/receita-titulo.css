@@ -1,10 +1,5 @@
 .receita__titulo {
+    color: var(--marrom-escuro);
     font-size: var(--fs-3);
     font-weight: var(--fw-regular);
-    color: var(--marrom-escuro);
-}
-
-@media screen and (min-width: 1024px) {}
-
-@media screen and (min-width: 1728px) {
 }

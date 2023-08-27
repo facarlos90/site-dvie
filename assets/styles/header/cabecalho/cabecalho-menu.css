@@ -8,12 +8,12 @@
     }
 
     .cabecalho__menu-link {
-        padding: 0 1em;
-        text-transform: uppercase;
-        text-decoration: none;
         color: var(--marrom-claro);
         font-size: var(--fs-2);
         font-weight: var(--fw-bold);
+        padding: 0 1em;
+        text-transform: uppercase;
+        text-decoration: none;
     }
 
     .cabecalho__menu-link.ativo {
