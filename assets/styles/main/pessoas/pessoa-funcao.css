@@ -1,0 +1,19 @@
+.pessoa__funcao {
+    text-transform: lowercase;
+    color: var(--marrom-claro);
+    font-size: var(--fs-1);
+    font-weight: var(--fw-regular);
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .pessoa__nome {
+        font-size: var(--fs-3);
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .pessoa__nome {
+        font-size: var(--fs-3);
+    }
+}

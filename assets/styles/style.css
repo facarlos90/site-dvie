@@ -17,6 +17,14 @@
 @import url(./main/receitas/receita-titulo.css);
 @import url(./main/receitas/receita-descricao.css);
 @import url(./main/receitas/receita-botao.css);
+@import url(./main/quemSomos/quemSomos.css);
+@import url(./main/quemSomos/quemSomos-titulo.css);
+@import url(./main/quemSomos/quemSomos-descricao.css);
+@import url(./main/pessoas/pessoas.css);
+@import url(./main/pessoas/pessoa.css);
+@import url(./main/pessoas/pessoa-nome.css);
+@import url(./main/pessoas/pessoa-imagem.css);
+@import url(./main/pessoas/pessoa-funcao.css);
 
 
 :root {

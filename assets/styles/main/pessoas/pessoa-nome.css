@@ -1,0 +1,18 @@
+.pessoa__nome {
+    font-family: var(--ff-pacifico);
+    color: var(--marrom-escuro);
+    font-size: var(--fs-2);
+    margin: 1rem 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .pessoa__nome {
+        font-size: var(--fs-4);
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .pessoa__nome {
+        font-size: var(--fs-5);
+    }
+}

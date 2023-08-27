@@ -1,0 +1,18 @@
+.quem-somos__titulo {
+    font-family: var(--ff-pacifico);
+    color: var(--marrom-escuro);
+    font-size: var(--fs-4);
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .quem-somos__titulo {
+        font-size: var(--fs-5);
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .quem-somos__titulo {
+        font-size: var(--fs-6);
+    }
+}
