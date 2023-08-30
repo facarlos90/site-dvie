@@ -20,6 +20,7 @@
 
 .container__botao:checked~.lista-menu {
     display: block;
+    flex-wrap: wrap;
 }
 
 
